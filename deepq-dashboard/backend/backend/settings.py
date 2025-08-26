@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1u-y6#@uo8d+6i%97jd#55#j#^_b*yq019^q*ph98ny%n1fb!b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["deepq-ai-project.onrender.com", "localhost", "127.0.0.1"]
 
 
 # Application definition
