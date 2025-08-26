@@ -22,7 +22,7 @@ function Dashboard({ onLogout }) {
   const fetchData = async () => {
     try {
       const res = await authAxios.get(
-        `http://127.0.0.1:8000/api/population/?country=${country}&start=${start}&end=${end}`
+        `https://deepq-ai-project.onrender.com/api/population/?country=${country}&start=${start}&end=${end}`
       );
       const chartData = res.data.labels.map((year, i) => ({
         year,

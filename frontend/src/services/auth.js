@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000/api";
+const API = "https://deepq-ai-project.onrender.com/api";
 
 export const login = async (username, password) => {
   const res = await axios.post(`${API}/token/`, { username, password });
